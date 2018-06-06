@@ -1,17 +1,32 @@
 {
-    "name": "react-native-barcode-scanner-google",
-    "version": "1.4.0",
-    "description":
-        "Barcode scanner for react native, which implements barcode detection from Google's Barcode API.",
-    "main": "index.js",
-    "author": "Emil Kreutzman",
-    "license": "MIT",
-    "peerDependencies": {
-        "react-native": ">= 0.25.0"
-    },
-    "rnpm": {
-        "android": {
-            "packageInstance": "new BarcodeScannerPackage()"
-        }
+  "name": "@nois/react-native-barcode-scanner-google",
+  "version": "1.4.0",
+  "description": "Barcode scanner for react native, which implements barcode detection from Google's Barcode API.",
+  "main": "index.js",
+  "author": "Emil Kreutzman",
+  "license": "MIT",
+  "peerDependencies": {
+    "react-native": ">= 0.25.0"
+  },
+  "rnpm": {
+    "android": {
+      "packageInstance": "new BarcodeScannerPackage()"
     }
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newoceaninfosys/react-native-barcode-scanner-google.git"
+  },
+  "keywords": [
+    "react-native",
+    "barcode",
+    "scanner"
+  ],
+  "bugs": {
+    "url": "https://github.com/newoceaninfosys/react-native-barcode-scanner-google/issues"
+  },
+  "homepage": "https://github.com/newoceaninfosys/react-native-barcode-scanner-google#readme"
 }

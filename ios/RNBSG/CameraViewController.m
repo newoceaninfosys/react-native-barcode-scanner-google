@@ -159,7 +159,7 @@
 - (void)setUpCameraPreview {
   self.previewLayer = [[AVCaptureVideoPreviewLayer alloc] initWithSession:self.session];
   [self.previewLayer setBackgroundColor:[UIColor whiteColor].CGColor];
-  [self.previewLayer setVideoGravity:AVLayerVideoGravityResizeAspect];
+  [self.previewLayer setVideoGravity:AVLayerVideoGravityResizeAspectFill];
   CALayer *rootLayer = self.placeHolderView.layer;
   rootLayer.masksToBounds = YES;
   [self.previewLayer setFrame:rootLayer.bounds];
